@@ -1,0 +1,190 @@
+body {
+	background: rgb(51, 51, 51) !important;
+}
+
+@media only screen and (min-width: 768px) {
+  .ui.container {
+    width: 700px !important;
+    max-width: 700px !important;
+  }
+
+  nav.ui.container .ui.header {
+    float: left;
+    margin-top: 12px;
+  }
+
+  nav.ui.container .ui.inverted.compact.menu {
+    float: right;
+  }
+}
+
+@media (max-width: 500px) {
+  .content {
+    margin-top: 10px !important; 
+  }
+}
+
+.ui.inverted.vertical.center.aligned.segment {
+  padding-top: 36px;
+}
+
+nav.ui.container .ui.inverted.compact.menu {
+  background-color: rgb(51, 51, 51);
+}
+
+nav.ui.container .ui.inverted.compact.menu .item {
+  padding-bottom: 0;
+}
+
+nav.ui.container .ui.inverted.compact.menu .item {
+  font-size: 16px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 14px;
+  margin-left: 16px;
+  margin-right: 16px;
+  border-radius: 0;
+}
+
+nav.ui.container .ui.inverted.compact.menu .active.item{
+  background-color: inherit;
+  border-bottom-color: white;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+
+.ui.secondary.pointing.menu .item {
+  color: white !important;
+}
+
+.ui.items > .item > .content > a.header {
+	color: white !important;
+}
+
+.ui.secondary.pointing.menu {
+	border-bottom: 2px solid rgb(78, 78, 78) !important;
+}
+
+.ui.secondary.pointing.menu .active.item {
+	border-color: #b3b3b3 !important;
+}
+
+.ui.form .field > label {
+	color:  white !important;
+}
+
+.ui.header {
+	color:  white !important;
+}
+
+.ui.items > .item .meta {
+	color: #dfdfdf !important;
+}
+
+.ui.items > .item > .content > .description {
+	color: #b3b3b3 !important;
+}
+
+.ui.items > .item > .content > .header {
+	color: #dfdfdf !important;
+}
+
+.ui.inverted.vertical.segment {
+  background-color: rgb(51, 51, 51);
+}
+
+.ui.modal > .header {
+	background: rgb(71, 71, 71) !important;
+}
+
+.ui.modal > .content {
+	background: rgb(51, 51, 51) !important;
+}
+
+.ui.modal > .actions {
+	background: rgb(51, 51, 51) !important;
+}
+
+.ui.inverted.menu {
+	background: rgb(51, 51, 51) !important;
+}
+
+.dropzone-segment {
+	background: #979797 !important;
+	border-color: rgba(34,36,38,.15) !important;
+	box-shadow: 0 2px 25px 0 rgba(34,36,38,0.5) inset !important;
+}
+
+.centre-div {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.dropzone-segment.active {
+  background: #636363 !important;
+}
+
+.modal-header {
+	color: #dfdfdf !important;
+}
+
+.ql-toolbar .ql-stroke {
+  fill: none !important;
+  stroke: #fff !important;
+}
+
+.ql-toolbar .ql-fill {
+  fill: #fff !important;
+  stroke: none !important;
+}
+
+.ql-toolbar .ql-picker {
+  color: #fff !important;
+}
+
+.ql-snow .ql-picker-options {
+	background-color: #333 !important;
+}
+
+.customDatePickerWidth, 
+.customDatePickerWidth > div.react-datepicker-wrapper, 
+.customDatePickerWidth > div > div.react-datepicker__input-container
+.customDatePickerWidth > div > div.react-datepicker__input-container input {
+   width: 100%;
+}
+
+.detailsPage img {
+  max-width: 100%;
+  height: auto;
+}
+
+.videoContainer {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; 
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none; 
+}
+
+.ql-size-small {
+  font-size: 0.75em;
+}
+
+.ql-size-large {
+  font-size: 1.5em;
+}
+
+.ql-size-huge {
+  font-size: 2em;
+}
