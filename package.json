@@ -5,8 +5,8 @@
   "homepage": "https://liviusgrosu.github.io/personal-website-frontend",
   "type": "module",
   "scripts": {
-	"predeploy": "npm run build",
-	"deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "vite",
     "dev": "vite",
     "build": "tsc && vite build",
