@@ -1,4 +1,4 @@
-import { /*Navigate,*/ createBrowserRouter } from "react-router-dom";
+import { /*Navigate,*/ createHashRouter } from "react-router-dom";
 import App from "../../App";
 import AboutPage from "../../features/AboutPage"
 import ContactPage from "../../features/ContactPage";
@@ -12,7 +12,7 @@ import LoginForm from "../../features/LoginForm";
 // import AboutEdit from "../../features/AboutEdit";
 // import RequireAuth from "./RequireAuth";
 // import NotFound from "../../errors/NotFound";
-export const router = createBrowserRouter([
+export const router = createHashRouter([
     {
         path: '/personal-website-frontend/',
         element: <App/>,
