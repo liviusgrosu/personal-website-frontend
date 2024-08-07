@@ -25,13 +25,13 @@ export const router = createHashRouter([
             //     { path: 'blog-edit/:id', element: <BlogPostEdit key='edit'/> },
             //     { path: 'blog-create', element: <BlogPostEdit key='create'/> }
             // ]},
-            { path: 'about', element: <AboutPage/> },
-            { path: 'projects', element: <ProjectsPage/> },
+            { path: 'personal-website-frontend/about', element: <AboutPage/> },
+            { path: 'personal-website-frontend/projects', element: <ProjectsPage/> },
             // { path: 'projects/:id', element: <ProjectDetail/> },
-            { path: 'blog', element: <BlogPosts/> },
+            { path: 'personal-website-frontend/blog', element: <BlogPosts/> },
             // { path: 'blog/:id', element: <BlogPostDetail/> },
-            { path: 'login', element: <LoginForm/>},
-            { path: 'contact', element: <ContactPage/>},
+            { path: 'personal-website-frontend/login', element: <LoginForm/>},
+            { path: 'personal-website-frontend/contact', element: <ContactPage/>},
             // { path: '/personal-website-frontend', element: <Navigate to="/personal-website-frontend/about" /> },
             // { path: 'not-found', element: <NotFound/>},
             // { path: '*', element: <Navigate replace to='/not-found'/>}
